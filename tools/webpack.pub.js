@@ -73,7 +73,7 @@ var prodConfig = {
             'redux': 'redux/dist/redux.min',
             'react-redux': 'react-redux/dist/react-redux',
             'safe': path.join(configWebpack.path.src, '/modules/common/safe.jsx'),
-            // 'cex': path.join(configWebpack.path.src,'/components/cex/src'),
+            'cex': path.join(configWebpack.path.src,'/components/cex/src'),
         }
     },
     postcss: function () {
