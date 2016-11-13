@@ -1,0 +1,42 @@
+{
+    "dev":{
+        "title":"f1",
+        "filename":"index",
+        "chunks":{
+            "libs/anime": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "f1":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    },
+    "pub":{
+        "title":"f1",
+        "filename":"index",
+        "chunks":{
+            "libs/react": null,
+            "libs/react-dom": null,
+            "libs/anime": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "f1":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    }
+}
