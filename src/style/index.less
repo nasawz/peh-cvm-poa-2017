@@ -1,7 +1,7 @@
 @import "./_icons.less";
 
 body {
-    background: #FFF;
+    background: #000;
     margin: 0;
 }
 
@@ -36,9 +36,74 @@ body {
         height: 79px;
     }
 
+    .slogan {
+        transform: translateY(-20px);
+    }
+
     .start {
-        margin-top: 100px;
+        margin-top: 40px;
         width: 238px;
         height: 36px;
+    }
+}
+
+.poa-start {
+    .slogan {
+        transform: scale(0.7) translateY(-30px);
+    }
+}
+
+.poa-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: left;
+
+    .kv {
+        width: 202px;
+        height: 79px;
+        padding: 10px;
+    }
+}
+
+.poa-session {
+    // margin-top: 90px;
+    // max-height: 280px;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    bottom: 70px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    // background-color: red;
+    // display: flex;
+    // flex-direction: column;
+    .xs-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .q {
+        width: 227px;
+        height: 25px;
+    }
+
+    .q1-2,
+    .q2-2 {
+        margin-top: 10px;
+        width: 183px;
+        height: 25px;
+    }
+
+    .q1-3 {
+        width: 260px;
+        height: 121px;
+    }
+
+    .q2-3 {
+        width: 260px;
+        height: 121px;
     }
 }

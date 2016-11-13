@@ -6804,6 +6804,10 @@ xregexp@2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/xregexp/download/xregexp-2.0.0.tgz#52a63e56ca0b84a7f3a5f3d61872f126ad7a5943"
 
+xscroll:
+  version "3.1.2"
+  resolved "http://registry.npm.taobao.org/xscroll/download/xscroll-3.1.2.tgz#cd4ed97fe8dc48c9e8e061118dd9458c4b7ad299"
+
 xtend@^4.0.0, "xtend@>=4.0.0 <4.1.0-0", xtend@~4.0.0:
   version "4.0.1"
   resolved "http://registry.npm.taobao.org/xtend/download/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
