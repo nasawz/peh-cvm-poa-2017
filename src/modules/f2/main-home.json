@@ -1,16 +1,15 @@
 {
     "dev":{
-        "title":"门诊大拯救",
-        "filename":"index",
+        "title":"f2-home",
+        "filename":"f2-home",
         "chunks":{
-            "libs/xscroll": null,
             "vendor":{
                 "attr":{
                     "js":"",
                     "css":""
                 }
             },
-            "f1":{
+            "f2-home":{
                 "attr":{
                     "js":"",
                     "css":""
@@ -19,19 +18,18 @@
         }
     },
     "pub":{
-        "title":"门诊大拯救",
-        "filename":"index",
+        "title":"f2-home",
+        "filename":"f2-home",
         "chunks":{
             "libs/react": null,
             "libs/react-dom": null,
-            "libs/xscroll": null,
             "vendor":{
                 "attr":{
                     "js":"",
                     "css":""
                 }
             },
-            "f1":{
+            "f2-home":{
                 "attr":{
                     "js":"",
                     "css":""
