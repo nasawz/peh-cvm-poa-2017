@@ -3,8 +3,10 @@ import classNames from 'classnames'
 
 const Session = React.createClass({
     componentDidMount() {
-        var xscroll = new window.XScroll({renderTo: '#poa-session', scrollbarX: false, lockX: true, lockY: false})
-        xscroll.render()
+        setTimeout(function () {
+            var xscroll = new window.XScroll({renderTo: '#poa-session', scrollbarX: false, lockX: true, lockY: false})
+            xscroll.render()
+        }, 1000)
     },
     render() {
         let _style = {
@@ -20,8 +22,6 @@ const Session = React.createClass({
                     <div className={classNames(classes)} style={_style}>
                         <img className='q' src={require('../../../img/f2_w1.png')}/>
                         <img className='q' src={require('../../../img/f2_w2.png')}/>
-
-                        <br />
                     </div>
                 </div>
             </div>
