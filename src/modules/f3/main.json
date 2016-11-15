@@ -1,0 +1,42 @@
+{
+    "dev":{
+        "title":"壮志凌云",
+        "filename":"f3",
+        "chunks":{
+            "libs/xscroll": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "f3":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    },
+    "pub":{
+        "title":"壮志凌云",
+        "filename":"f3",
+        "chunks":{
+            "libs/react": null,
+            "libs/react-dom": null,
+            "libs/xscroll": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "f3":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    }
+}
