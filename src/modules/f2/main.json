@@ -1,7 +1,7 @@
 {
     "dev":{
-        "title":"门诊大拯救",
-        "filename":"index",
+        "title":"患者总动员",
+        "filename":"f2",
         "chunks":{
             "libs/xscroll": null,
             "vendor":{
@@ -10,7 +10,7 @@
                     "css":""
                 }
             },
-            "f1":{
+            "f2":{
                 "attr":{
                     "js":"",
                     "css":""
@@ -19,8 +19,8 @@
         }
     },
     "pub":{
-        "title":"门诊大拯救",
-        "filename":"index",
+        "title":"患者总动员",
+        "filename":"f2",
         "chunks":{
             "libs/react": null,
             "libs/react-dom": null,
@@ -31,7 +31,7 @@
                     "css":""
                 }
             },
-            "f1":{
+            "f2":{
                 "attr":{
                     "js":"",
                     "css":""
