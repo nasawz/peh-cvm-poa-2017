@@ -7,15 +7,14 @@ var run = require('run-sequence')
 
 var pkg = require('../package.json')
 
-gulp.task('deploy', function() {
-    return gulp.src('dist/**')
-    .pipe(sftp({
-      host: '',
-      port: 000,
-      auth: '',
-      remotePath: ''
+gulp.task('deploy-vhome', function() {
+    return gulp.src('dist/**').pipe(sftp({
+      host: '118.244.237.2',
+      port: 22000,
+      auth: 'hpe',
+      remotePath: '/opt/baleina/havas/code/poa_2017'
     }))
 })
 
 
-run('deploy')
+run('deploy-vhome')
