@@ -1,6 +1,6 @@
 {
     "dev":{
-        "title":"f2",
+        "title":"患者总动员",
         "filename":"f2",
         "chunks":{
             "libs/xscroll": null,
@@ -19,7 +19,7 @@
         }
     },
     "pub":{
-        "title":"f2",
+        "title":"患者总动员",
         "filename":"f2",
         "chunks":{
             "libs/react": null,
