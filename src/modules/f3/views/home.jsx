@@ -54,7 +54,7 @@ const Home = React.createClass({
                 <div className='poa-home'>
                     <img className='kv' src={require('../../../img/kv.png')}/>
                     <Slogan />
-                    <img className='start f3-start' onClick={this.start} src={require('../../../img/f3-start.png')}/>
+                    <img className='start' onClick={this.start} src={require('../../../img/f3-start.png')}/>
                 </div>
             )
         }
@@ -85,7 +85,7 @@ const Home = React.createClass({
     render() {
 
         return (
-            <div ref='target' style={{
+            <div ref='target' className='f3' style={{
                 minHeight: window.innerHeight,
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: `${window.innerWidth}px 100%`,
