@@ -1,0 +1,41 @@
+{
+    "dev":{
+        "title":"ACS 生死竞速",
+        "filename":"f6",
+        "chunks":{
+            "libs/xscroll": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "f6":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    },
+    "pub":{
+        "title":"ACS 生死竞速",
+        "filename":"f6",
+        "chunks":{
+            "libs/react": null,
+            "libs/react-dom": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "f6":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    }
+}
