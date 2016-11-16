@@ -43,14 +43,14 @@
              minHeight: window.innerHeight,
              backgroundRepeat: 'no-repeat',
              backgroundSize: '100% 100%',
-             backgroundImage: `url(${require('../../../img/f6-1.jpg')})`
+             backgroundImage: `url(${require('../../../img/f2_bg.jpg')})`
          }
          if (this.state.view == 'start') {
              style = {
                  minHeight: window.innerHeight,
                  backgroundRepeat: 'no-repeat',
                  backgroundSize: '100% 100%',
-                 backgroundImage: `url(${require('../../../img/f6-bg.jpg')})`
+                 backgroundImage: `url(${require('../../../img/f2_bg2.jpg')})`
              }
          }
          return (
