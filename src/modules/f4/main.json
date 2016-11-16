@@ -1,0 +1,42 @@
+{
+    "dev":{
+        "title":"糖尿病血管保卫战",
+        "filename":"f4",
+        "chunks":{
+        "libs/xscroll": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "f4":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    },
+    "pub":{
+        "title":"糖尿病血管保卫战",
+        "filename":"f4",
+        "chunks":{
+            "libs/react": null,
+            "libs/react-dom": null,
+            "libs/xscroll": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "f4":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    }
+}

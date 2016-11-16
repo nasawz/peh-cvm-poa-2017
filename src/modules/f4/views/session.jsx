@@ -20,11 +20,9 @@ const Session = React.createClass({
             <div className='poa-session' id='poa-session' ref='session'>
                 <div className="xs-container">
                     <div className={classNames(classes)} style={_style}>
-                        <img className='q' src={require('../../../img/q.png')}/>
-                        <img className='q1-2' src={require('../../../img/q1-2.png')}/>
-                        <img className='q1-3' src={require('../../../img/q1-3.png')}/>
-                        <img className='q2-2' src={require('../../../img/q2-2.png')}/>
-                        <img className='q2-3' src={require('../../../img/q2-3.png')}/>
+                        <img className='q' src={require('../../../img/f4_w1.png')}/>
+                        <img className='q' src={require('../../../img/f4_w2.png')}/>
+                        <img className='q' src={require('../../../img/f4_w3.png')}/>
                     </div>
                 </div>
             </div>

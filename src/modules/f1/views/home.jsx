@@ -3,7 +3,7 @@
  */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import anime from 'animejs'
+// import anime from 'animejs'
 import imgAnimator from '../../common/imgAnimator.js'
 import Session from './session.jsx'
 import Slogan from './slogan.jsx'
