@@ -17,7 +17,7 @@ const Session = React.createClass({
             'iphone-plus':(window.innerWidth>400)
         }
         return (
-            <div className='poa-session poa-session-f3' id='poa-session' ref='session'>
+            <div className='poa-session' id='poa-session' ref='session'>
                 <div className="xs-container">
                     <div className={classNames(classes)} style={_style}>
                         <img className='q1-2' src={require('../../../img/f3-p1.png')}/>
