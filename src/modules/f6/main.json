@@ -20,10 +20,11 @@
     },
     "pub":{
         "title":"ACS 生死竞速",
-        "filename":"f6",
+        "filename":"-f6",
         "chunks":{
             "libs/react": null,
             "libs/react-dom": null,
+            "libs/xscroll": null,
             "vendor":{
                 "attr":{
                     "js":"",

@@ -20,7 +20,7 @@
     },
     "pub":{
         "title":"尖峰时刻",
-        "filename":"f5",
+        "filename":"-f5",
         "chunks":{
             "libs/react": null,
             "libs/react-dom": null,
