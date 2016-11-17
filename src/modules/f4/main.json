@@ -20,7 +20,7 @@
     },
     "pub":{
         "title":"糖尿病血管保卫战",
-        "filename":"-f4",
+        "filename":"f4",
         "chunks":{
             "libs/react": null,
             "libs/react-dom": null,
