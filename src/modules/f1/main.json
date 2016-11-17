@@ -1,7 +1,7 @@
 {
     "dev":{
         "title":"门诊大拯救",
-        "filename":"index",
+        "filename":"f1",
         "chunks":{
             "libs/xscroll": null,
             "vendor":{
@@ -20,7 +20,7 @@
     },
     "pub":{
         "title":"门诊大拯救",
-        "filename":"index",
+        "filename":"f1",
         "chunks":{
             "libs/react": null,
             "libs/react-dom": null,
