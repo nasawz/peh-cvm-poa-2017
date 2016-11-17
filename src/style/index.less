@@ -134,6 +134,30 @@ body {
     }
 }
 
+.arrow {
+    position: fixed;
+    bottom: 6%;
+    left: 50%;
+    z-index: 99;
+    width: 18px;
+    height: 10px;
+    margin-left: -5px;
+    background: url(../img/arrow.png) 0 0 no-repeat;
+    background-size: auto 10px;
+    animation: arrowUp 1.5s infinite;
+    -webkit-animation: arrowUp 1.5s infinite;
+}
+@keyframes arrowUp {
+	0%,30% { opacity: 0; -webkit-transform: translate(0, 10px); }
+	60% { opacity: 1; -webkit-transform: translate(0, 0); }
+	100% { opacity: 0; -webkit-transform: translate(0, -10px); }
+}
+@-webkit-keyframes arrowUp {
+	0%,30% { opacity: 0; -webkit-transform: translate(0, 10px); }
+	60% { opacity: 1; -webkit-transform: translate(0, 0); }
+	100% { opacity: 0; -webkit-transform: translate(0, -10px); }
+}
+
 @import "./f3.less";
 @import "./f2.less";
 @import "./f4.less";

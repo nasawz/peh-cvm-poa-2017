@@ -82,6 +82,13 @@ const Home = React.createClass({
             )
         }
     },
+    renderArrow() {
+        if (this.state.view == 'start') {
+            return (
+                <div className='arrow'></div>
+            )
+        }
+    },
     render() {
 
         return (
@@ -98,6 +105,7 @@ const Home = React.createClass({
                 { this.renderSlogan() }
                 { this.renderSession() }
                 {this.renderHome()}
+                {this.renderArrow() }
                 {this.renderFooter()}
             </div>
         )
