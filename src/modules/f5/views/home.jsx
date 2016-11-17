@@ -20,6 +20,8 @@ const Home = React.createClass({
         let target = ReactDOM.findDOMNode(this.refs.target)
         this.imga = new imgAnimator(target, [
             require('../../../img/f5-1.jpg'),
+            require('../../../img/f5-2.jpg'),
+            require('../../../img/f5-3.jpg'),
             require('../../../img/f5-2.jpg')
         ], {
             loop: true,
@@ -76,7 +78,7 @@ const Home = React.createClass({
                 minHeight: window.innerHeight,
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: `${window.innerWidth}px 100%`,
-                backgroundImage: `url(${require('../../../img/f5-3.jpg')})`
+                backgroundImage: `url(${require('../../../img/f5-bg.jpg')})`
             }}></div>
         }
     },
