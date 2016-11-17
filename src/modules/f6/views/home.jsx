@@ -17,6 +17,8 @@ const Home = React.createClass({
     		let target = ReactDOM.findDOMNode(this.refs.target)
 	        this.imga = new imgAnimator(target, [
 	            require('../../../img/f6-1.jpg'),
+	            require('../../../img/f6-2.jpg'),
+	            require('../../../img/f6-3.jpg'),
 	            require('../../../img/f6-2.jpg')
 	        ], {
 	            loop: true,
