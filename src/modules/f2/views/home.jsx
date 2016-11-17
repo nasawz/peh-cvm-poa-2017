@@ -38,6 +38,13 @@
              return <Session />
          }
      },
+     renderArrow() {
+         if (this.state.view == 'start') {
+             return (
+                <div className='arrow'></div>
+             )
+         }
+     },
      render() {
          let style = {
              minHeight: window.innerHeight,
@@ -61,6 +68,7 @@
                  </div>
                  { this.renderSession() }
                  {this.renderHome()}
+                 {this.renderArrow() }
              </div>
          )
      }

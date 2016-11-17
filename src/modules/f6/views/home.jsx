@@ -13,7 +13,7 @@ const Home = React.createClass({
     getInitialState: function() {
         return {view: 'home'}
     },
-    componentDidMount() {	
+    componentDidMount() {
     		let target = ReactDOM.findDOMNode(this.refs.target)
 	        this.imga = new imgAnimator(target, [
 	            require('../../../img/f6-1.jpg'),
@@ -30,7 +30,7 @@ const Home = React.createClass({
 	                // console.log("animation finished!");
 	            }
 	        })
-        
+
     },
     renderHome() {
 		if (this.state.view == 'home') {
@@ -86,8 +86,15 @@ const Home = React.createClass({
         		</div>
         	)
         }
-    	
 
+
+    },
+    renderArrow() {
+        if (this.state.view == 'start') {
+            return (
+                <div className='arrow'></div>
+            )
+        }
     },
     render() {
     	let style = {
@@ -96,7 +103,7 @@ const Home = React.createClass({
             backgroundSize: `${window.innerWidth}px 100%`,
             backgroundImage: `url(${require('../../../img/f6-1.jpg')})`
          }
-         
+
         return (
             <div  className='f6-poa-home'  ref='target' style={style}>
             	{this.renderTwo()}
@@ -107,11 +114,12 @@ const Home = React.createClass({
 	                </div>
 	                {this.renderHome()}
 	                {this.renderSession()}
+                    {this.renderArrow() }
 	            	{this.renderFooter()}
             	</div>
-        		
-            	
-         		
+
+
+
             </div>
         )
     }

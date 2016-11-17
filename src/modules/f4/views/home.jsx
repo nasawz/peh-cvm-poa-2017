@@ -92,6 +92,13 @@
              )
          }
      },
+     renderArrow() {
+         if (this.state.view == 'start') {
+             return (
+                 <div className='arrow'></div>
+             )
+         }
+     },
      render() {
          let style={}
          if(this.state.view == 'start'){
@@ -124,6 +131,7 @@
                          { this.renderSlogan() }
                          { this.renderSession() }
                          {this.renderHome()}
+                         {this.renderArrow() }
                          {this.renderFooter()}
                      </div>
                  </div>
