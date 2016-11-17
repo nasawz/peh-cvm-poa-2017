@@ -18,29 +18,13 @@
      },
      componentDidMount() {
          let target = ReactDOM.findDOMNode(this.refs.target)
-         let target1 = ReactDOM.findDOMNode(this.refs.target1)
          this.imga1 = new imgAnimator(target, [
-             require('../../../img/f4_bg0.jpg'),
-             require('../../../img/f4_bg.jpg'),
-         ], {
-             loop: true,
-             startOnLoad: true,
-             duration: 9999999,
-             fps: 400,
-             preprocess: function() {
-                 // console.log("loading...");
-             },
-             callback: function() {
-                 // console.log("animation finished!");
-             }
-         })
-         this.imga = new imgAnimator(target1, [
-             require('../../../img/f4_1.png'),
-             require('../../../img/f4_2.png'),
-             require('../../../img/f4_3.png'),
-             require('../../../img/f4_4.png'),
-             require('../../../img/f4_3.png'),
-             require('../../../img/f4_2.png')
+             require('../../../img/f4_bg_1.jpg'),
+             require('../../../img/f4_bg_2.jpg'),
+             require('../../../img/f4_bg_3.jpg'),
+             require('../../../img/f4_bg_4.jpg'),
+             require('../../../img/f4_bg_3.jpg'),
+             require('../../../img/f4_bg_2.jpg'),
          ], {
              loop: true,
              startOnLoad: true,
@@ -115,26 +99,19 @@
                  minHeight: window.innerHeight,
                  backgroundRepeat: 'no-repeat',
                  backgroundSize: '100% 100%',
-                 backgroundImage: `url(${require('../../../img/f4_bg0.jpg')})`
+                 backgroundImage: `url(${require('../../../img/f4_bg_1.jpg')})`
              }}>
-                 <div ref='target1' style={{
-                     minHeight: window.innerHeight,
-                     backgroundRepeat: 'no-repeat',
-                     backgroundSize: '100% 100%',
-                     backgroundImage: `url(${require('../../../img/f4_1.png')})`
-                 }}>
-                     <div style={style}>
-                         <div className='poa-header'>
-                             <img className='logo1' src={require('../../../img/logo1.png')}/>
-                             <img className='logo2' src={require('../../../img/logo2.png')}/>
-                         </div>
-                         { this.renderSlogan() }
-                         { this.renderSession() }
-                         {this.renderHome()}
-                         {this.renderArrow() }
-                         {this.renderFooter()}
-                     </div>
+             <div style={style}>
+                 <div className='poa-header'>
+                     <img className='logo1' src={require('../../../img/logo1.png')}/>
+                     <img className='logo2' src={require('../../../img/logo2.png')}/>
                  </div>
+                 { this.renderSlogan() }
+                 { this.renderSession() }
+                 {this.renderHome()}
+                 {this.renderArrow() }
+                 {this.renderFooter()}
+             </div>
              </div>
          )
      }
