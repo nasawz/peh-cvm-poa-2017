@@ -22,7 +22,6 @@ const Session = React.createClass({
                     <div className={classNames(classes)} style={_style}>
                         <img className='q' src={require('../../../img/f5-q.png')}/>
                         <img className='q1-3' src={require('../../../img/f5-p1.png')}/>
-                        <img className='q1-3' src={require('../../../img/f5-p2.png')}/>
                     </div>
                 </div>
             </div>
