@@ -6,7 +6,7 @@ const Slogan = React.createClass({
     getDefaultProps: function() {
         return {
             width:window.innerWidth,
-            height:198/850*window.innerWidth
+            height:210/640*window.innerWidth
         }
     },
     render() {
@@ -14,7 +14,7 @@ const Slogan = React.createClass({
             width: `${this.props.width}px`,
             height: `${this.props.height}px`,
             backgroundRepeat: 'no-repeat',
-            backgroundSize: `${window.innerWidth*1.34}px auto`,
+            backgroundSize: `${this.props.width}px auto`,
             backgroundImage: `url(${require('../../../img/f5-m1.png')})`,
             backgroundPosition: 'center 0'
         }} ref='slogan' className='slogan' ></div>)
